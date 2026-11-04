@@ -310,17 +310,14 @@ env.close()
 
 ## Result
 
-```text
 
 The Policy Iteration algorithm was successfully implemented on the Gymnasium FrozenLake-v1 environment. The algorithm converged after a finite number of iterations and produced the optimal state-value function and the optimal policy for navigating the agent from the start state to the goal while avoiding holes.
 
-```
 ---
 
 ## Inference
-```text
+
 The initial policy was a random policy with uniformly distributed actions, resulting in lower state-value estimates. After repeated policy evaluation and policy improvement, the algorithm converged to the optimal policy with higher state-value estimates. Compared to the initial policy, the optimal policy selects the best action in each state to maximize the expected cumulative reward and efficiently guides the agent to the goal while avoiding holes. Thus, Policy Iteration successfully found the optimal policy for the FrozenLake-v1 environment.
 
-```
 ---
 
